@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        label{
+            margin: 0;
+            padding: 10px;
+            border: 2px solid black;
+            background-color: deepskyblue;
+        }
+        input{
+            font-size: medium;
+            background-color: snow;
+            margin: 2px;
+            padding: 10px;
+            border: 2px solid black ;
+        }
+        body{
+            background-image: url("assets/images/audi.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: beige;
+
+        }
+        li{
+            float: left;
+        }
+        li a{
+            padding: 15px;
+            color: aqua;
+            display: block;
+            text-decoration: none;
+        }
+        li a:hover{
+            background-color: black;
+        }
+        body{
+            background-color:lightgoldenrodyellow;
+            background-image: url("assets/images/images 5.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+            color: deepskyblue;
+            font-family: "math";
+            font-size: 30px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forms</title>
+</head>
+<body>
+<h1>safari mid-morning class</h1>
+<ul>
+ <li><a href="forms.html">personal</a></li>
+    <li><a href="#">business</a></li>
+    <li><a href="about.html">about us</a></li>
+    <li><a href="">investor relation</a></li>
+    <li><a href="">fraud awareness</a></li>
+    <li><a href="">media</a></li>
+    <li><a href="">careers</a></li>
+    <li><a href="contact%20us.html">contact us</a></li>
+ </ul>
+<form action="">
+    <label for="fname">first name</label>
+    <input type="text" id="fname" name="jina"  placeholder="enter name"><br><br>
+    <label for="lname">last name</label>
+    <input type="text" id="lname" placeholder="enter name"><br><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="barua pepe" placeholder="enter email"><br><br>
+    <label for="phone ">mobile no.</label>
+    <input type="text" id="phone " name="nambari ya simu" placeholder="enter phone no."><br><br>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender">
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender">
+    <label for="others">custom</label>
+    <input type="radio" id="others" name="gender"><br><br>
+    <label for="course">course taken</label>
+    <select name="course" id="course">
+            <option value="computer science">Computer Science</option>
+            <option value="statistics and data science">statistics and data science</option>
+            <option value="software developer">Software Development</option>
+        <option value="mechatronic engineer">mechatronic engineer</option>
+        <option value="software engineer">software engineer</option>
+    </select><br><br>
+    <label for="upload image">Upload image</label>
+    <input type="file" id="upload image"><br><br>
+    <label for="dob">date of birth</label>
+    <input type="date" id="dob" name="tarehe" placeholder="enter dob"><br><br>
+    <label for="pass">password</label>
+    <input type="password" id="pass" name="neno siri" placeholder="enter password"><br><br>
+
+    <input type="submit" value="register">
+</form>
+</body>
+</html>

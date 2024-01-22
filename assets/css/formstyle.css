@@ -1,0 +1,33 @@
+body{
+    font-family:cursive;
+    background-color: burlywood;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+#form-container{
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    width: 400px;
+}
+.form-group{
+    margin-bottom: 16px;
+}
+label{
+    display: block;
+    margin-top: 8px;
+    font-weight: bolder;
+}
+button {
+    background-color: lawngreen;
+    text-decoration-color:white;
+    border: none;
+    border-radius: 6px;
+    cursor:pointer;
+    font-size: 16px;
+
+}

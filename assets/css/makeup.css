@@ -1,0 +1,25 @@
+table{
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+td,th{
+    border: 2px solid black;
+    padding: 10px;
+}
+th{
+    color: coral;
+    font-family: serif;
+    font-size:medium;
+}
+h1{
+    text-align: center;
+}
+td{
+    color: blueviolet;
+    font-family:"Century Schoolbook L";
+    font-size: small;
+}
+tr:nth-child(even){
+    background-color: aqua;
+}
